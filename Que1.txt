@@ -1,0 +1,14 @@
+Time tuple is the way in which python handles the time and date .
+Python handles time tuple as 9 numbers as shown:
+
+SR no	Field		Values
+____________________________________________________
+  0	Year		1 to 9999
+  1	Month  		1 to 12
+  2	Day		1 to 31
+  3	Hour		0 to 23
+  4	Minute   		0 to 59
+  5	Second		0 to 60 or 61 as leap second
+  6	Day of the week	0 to 6
+  7	Day of the year	1 to 366
+  8	Daylight savings	-1,0,1
